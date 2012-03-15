@@ -1,0 +1,57 @@
+Package: version v04
+	New repository "Optimus Linux Kernel", yeah this is the name I gave for my kernel builds
+	-- Rebuild and synced with 3.2.11 vanilla Linux kernel
+
+
+----------------------------------------------------------------------------------------
+Package: version v03
+	Total rebuild from scratch using Official Ubuntu Kernels and then patch it with BFS
+and BFQ patches instead of using Zen kernel.
+
+	Note: in future this repository will be obsolete due to my intantion to create my
+	own cutom builds and not zen kernels
+
+	--Now compatible with intel and AMD 64bit CPUs
+	
+----------------------------------------------------------------------------------------
+Package: version v02
+
+	Total rebuild from scratch using Official Linux Kernel and then patch it with BFS
+	and BFQ patches instead of using Zen kernel.
+
+	Note: in future this repository may be obsolete due to my intantion to create my
+	own cutom builds and not zen kernels
+	-remove kprobes
+	-remove OProfile and profiling
+	-remove Compile the kernel with debug info CONFIG_DEBUG_INFO
+	-remove Print additional per-task information for RCU_CPU_STALL_DETECTO
+	-remove Early printk CONFIG_EARLY_PRINTK
+
+
+ 
+----------------------------------------------------------------------------------------
+Package: version v01
+
+	Automatically use SCHED_ISO policy for X
+	Optimize for size
+	Remove schedulers (ded, CFQ,)
+	BFQ hierarchical scheduling
+	Core 2/newer Xeon (Intel Core 2 and newer Core 2 Xeons (Xeon 51xx and 53xx) CPUs.) Family 6
+	Preemptible Kernel
+	1000Hz
+	Remove support for AMD and Centaur processors
+	Default CPUFreq --> ONDEMAND
+	Remove Paravirtualized guest support
+	Removed Virtualisation
+	Removed Support for extended (non-PC) x86 platforms
+	Removed SMT (Hyperthreading) scheduler support for Intel Pentium 4
+	Set Maximum number CPUs to 25
+	Removed KGDB: kernel debugger
+	Added some additional wifi drivers
+	Added Colored kernel messages output
+	Removed Tablet drivers
+	Removed Touchscreen drivers
+	Added some additional keyboard drivers
+	Added some additional webcam drivers
+	Added some additional LCD Device drivers
+	Added some additional Intel GMA drivers

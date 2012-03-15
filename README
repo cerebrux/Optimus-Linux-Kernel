@@ -1,3 +1,15 @@
 This repository will have Ubuntu Linux Kernel packages built from the latest stable kernel and packed with BFS and BFQ schedulers for better performances.\
 
 Please read the change log for history of changes
+
+System Requirements:
+--------------------
+
+OS: 	Ubuntu
+CPU: 	Intel or AMD
+Arch: 	64bit
+--------------------
+
+
+
+http://about.me/salihemin
