@@ -1,5 +1,12 @@
+----------------------------------------------------------------------------------------
+Package: version v05	
+	-- Rebuild and synced with 3.2.12 vanilla Linux kernel (for what is included please read the kernel log on website)
+	-- Packages are named after "linux-*-X.X.X-999-optimus" to make sure that it is always the first kernel on the GRUB menu even if Ubuntu - (or) derivatives have upgraded their kernel
+
+----------------------------------------------------------------------------------------
+
 Package: version v04
-	New repository "Optimus Linux Kernel", yeah this is the name I gave for my kernel builds
+	-- New repository "Optimus Linux Kernel", yeah this is the name I gave for my kernel builds
 	-- Rebuild and synced with 3.2.11 vanilla Linux kernel
 
 
