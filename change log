@@ -1,4 +1,25 @@
 ----------------------------------------------------------------------------------------
+Package: version v06	
+	-- Rebuild and synced with 3.2.14 vanilla Linux kernel (for what is included please read the kernel log on website)
+	-- Optimize for size
+	-- Remove schedulers (deadline, CFQ,)
+	-- BFQ hierarchical scheduling
+	-- Remove Paravirtualized guest support
+	-- Removed Virtualisation (CONFIG_VIRTUALIZATION)
+	-- Preemptible Kernel
+	-- Timer frequency 1000Hz
+	-- Remove support for Centaur, Cyrix, Transmeta, Umc processors
+	-- Removed Support for extended (non-PC) x86 platforms
+	-- Default CPUFreq --> ONDEMAND
+	-- Removed NFC subsystem support (CONFIG_NFC)
+	-- Set Maximum number CPUs to 25 (64bit) and 8 (32bit)
+	-- Removed Plan 9 Resource Sharing Support (CONFIG_NET_9P)
+	-- Removed CAIF support (CONFIG_CAIF)
+	-- Removed Tablet drivers
+	-- Removed Touchscreen drivers
+	-- Removed Microsoft Hyper-V client drivers (CONFIG_HYPERV)
+	-- Reverted to -Os gcc optimizasions
+----------------------------------------------------------------------------------------
 Package: version v05	
 	-- Rebuild and synced with 3.2.12 vanilla Linux kernel (for what is included please read the kernel log on website)
 	-- Packages are named after "linux-*-X.X.X-999-optimus" to make sure that it is always the first kernel on the GRUB menu even if Ubuntu - (or) derivatives have upgraded their kernel
@@ -41,7 +62,7 @@ Package: version v01
 
 	Automatically use SCHED_ISO policy for X
 	Optimize for size
-	Remove schedulers (ded, CFQ,)
+	Remove schedulers (deadline, CFQ,)
 	BFQ hierarchical scheduling
 	Core 2/newer Xeon (Intel Core 2 and newer Core 2 Xeons (Xeon 51xx and 53xx) CPUs.) Family 6
 	Preemptible Kernel
