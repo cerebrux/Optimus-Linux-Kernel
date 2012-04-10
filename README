@@ -1,4 +1,4 @@
-This repository will have Ubuntu Linux Kernel packages based on the latest stable kernel and patched with BFS and BFQ schedulers for optimum Desktop performances.
+This repository will have Ubuntu compatible Linux Kernel packages based on the latest stable kernel and patched with BFS and BFQ schedulers for optimum Desktop/Laptop performances.
 
 Please read the change log for history of changes
 
