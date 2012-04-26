@@ -1,6 +1,16 @@
 ----------------------------------------------------------------------------------------
+Package: version 3.2.16 /201204252251	
+----------------------------------------------------------------------------------------	
+	-- Rebuild and synced with 3.2.16 vanilla Linux kernel (for what is included please read the kernel log on website)
+	-- Removed Industrial I/O drivers which are not needed for the avarege Joe out there
+	-- Removed Virtualisation drivers (VIRT_DRIVERS)
+	-- Removed support for JFS, XFS, GFS2, OCFS2, NILFS2
+	-- Removed KGDB (KGDB)
+	-- Removed TOMOYO Linux Support (SECURITY_TOMOYO)
+	-- Removed EVM support (EVM)
+----------------------------------------------------------------------------------------
 Package: version 3.2.14/201204141610	
-
+----------------------------------------------------------------------------------------
 	-- Rebuild and synced with 3.2.14 vanilla Linux kernel (for what is included please read the kernel log on website)
 	-- All configuration options are now reverted to default and starting from scratch
 	-- Optimize for size
@@ -23,7 +33,7 @@ Package: version 3.2.14/201204141610
 	-- Reverted to -Os gcc optimizasions
 ----------------------------------------------------------------------------------------
 Package: version 3.2.12/201203281610
-
+----------------------------------------------------------------------------------------
 	-- Rebuild and synced with 3.2.12 vanilla Linux kernel (for what is included please read the kernel log on website)
 	-- Packages are named after "linux-*-X.X.X-999-optimus" to make sure that it is always the first kernel on the GRUB menu even if Ubuntu - (or) derivatives have upgraded their kernel
 
