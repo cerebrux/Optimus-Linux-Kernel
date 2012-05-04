@@ -1,4 +1,18 @@
 ----------------------------------------------------------------------------------------
+Package: version 3.3.4 /201205040200	
+----------------------------------------------------------------------------------------	
+	-- Rebuild and synced with 3.3.4 vanilla Linux kernel (for what is included please read the kernel log on website)
+	-- Removed Optimize for size
+	-- Compiling using CCASHE
+	-- Compilling with -O2 instead of -Os gcc options
+	-- Removed Partition types exept PC BIOS, Winodws Logiacal M. , EFI
+	-- Removed Control Group support
+	-- Removed Support for PCI hotplug
+	-- Removed Token ring driver support
+	-- Removed ATM drivers
+	-- Removed Infiniband support
+
+----------------------------------------------------------------------------------------
 Package: version 3.2.16 /201204252251	
 ----------------------------------------------------------------------------------------	
 	-- Rebuild and synced with 3.2.16 vanilla Linux kernel (for what is included please read the kernel log on website)

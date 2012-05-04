@@ -1,11 +1,17 @@
 New releases announced here: http://optimus-linux.blogspot.com/
 Author: http://about.me/salihemin
 
+Please read the change log for history of changes
+
+
+
+
 What is this place ?
 -------------------
 This repository will have Ubuntu compatible Linux Kernel packages based on the latest (compatible) stable kernel and patched with BFS-BFQ schedulers and in-house tweaks for optimum Desktop/Laptop performances.
 
-Please read the change log for history of changes
+Note: If you have proprietary drivers installed in your system (eg. Nvidia, AMD/ATI graphic card drivers), you may need to reinstall them after you install new kernels. 
+
 
 System Requirements:
 --------------------
@@ -16,6 +22,7 @@ Arch: 	32 bit / 64bit
 --------------------
 
 Source code:
+	
 	Kernel: 	http://kernel.ubuntu.com/git?p=ubuntu/ubuntu-precise.git;a=summary
 	BFS: 		http://ck.kolivas.org/patches/bfs/
 	BFQ: 		http://algo.ing.unimo.it/people/paolo/disk_sched/patches/
