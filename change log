@@ -1,4 +1,27 @@
 ----------------------------------------------------------------------------------------
+Package: version 3.2.0.29 /201208141900	
+----------------------------------------------------------------------------------------	
+	-- Rebuild and synced with latest default 3.2.0.29 Ubuntu Linux kernel (for what is included please read the kernel log on website)
+	-- New course on building the kernel. Please read the blogpost for details.
+	-- Only BFQ patches applied as for some reason BFS patches produce build error
+	-- Changed Default CPUFreq to Performance
+	-- Removed kernel performance counters (old config option)
+	-- Removed VIA Cyrix III Longhaul (32bit Power managment)	
+	-- Enabled Support for PCI Hotplug (HOTPLUG_PCI)
+	-- Enabled Support for PCI Express Hotplug driver (HOTPLUG_PCI_PCIE)
+	-- Enabled Support for ACPI PCI Hotplug driver (HOTPLUG_PCI_ACPI)
+	-- Enabled Support for ACPI PCI Hotplug driver IBM extensions (HOTPLUG_PCI_ACPI_IBM)
+	-- Enabled Support for CompactPCI Hotplug driver (HOTPLUG_PCI_CPCI)
+	-- Enabled Support for Ziatech ZT5550 CompactPCI Hotplug driver (HOTPLUG_PCI_CPCI_ZT5550)
+	-- Enabled Support for Generic port I/O CompactPCI Hotplug driver (HOTPLUG_PCI_CPCI_GENERIC)
+	-- Enabled Support for SHPC PCI Hotplug driver (HOTPLUG_PCI_SHPC)
+	-- Enabled Support for ASUS WMI Driver (ASUS_WMI)
+	-- Enabled Support for Eee PC Hotkey Driver (EEEPC_LAPTOP)
+	-- Enabled Support for Asus Notebook WMI Driver (ASUS_NB_WMI)
+	-- Enabled Support for Eee PC WMI Driver (EEEPC_WMI)
+	
+
+----------------------------------------------------------------------------------------
 Package: version 3.3.7 /201206010200	
 ----------------------------------------------------------------------------------------	
 	-- Rebuild and synced with 3.3.7 vanilla Linux kernel (for what is included please read the kernel log on website)
